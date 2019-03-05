@@ -1,0 +1,19 @@
+version: '3.3'
+
+services:
+    app:
+        image: d2reg:8200/brainrunner-front:latest
+        ports:
+          - target: 80
+            published: 8105
+            protocol: tcp
+            mode: host
+        networks:
+            - bridge
+        deploy:
+              replicas : 1
+
+networks:
+  bridge:
+    external:
+      name: bridge
