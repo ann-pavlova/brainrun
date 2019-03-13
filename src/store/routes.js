@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://192.168.1.12:8104';
+export const BASE_URL = 'https://brainrun.beatcode.net';
 export const EDIT_QUESTION = 'editQuestion';
 export const QUESTIONS = 'questions';
 export const TAGS = 'tags';
