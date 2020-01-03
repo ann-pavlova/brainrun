@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://brainrun.beatcode.net';
+export let BASE_URL = process.env.BRAINRUN_SERVER ? process.env.BRAINRUN_SERVER : location.origin;
 export const EDIT_QUESTION = 'editQuestion';
 export const QUESTIONS = 'questions';
 export const TAGS = 'tags';
