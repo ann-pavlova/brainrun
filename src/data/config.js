@@ -1,4 +1,4 @@
 export default {
-    maxLengthTableQuestion: 25,
+    maxLengthTableQuestion: 140,
     formatDateTableQuestion: 'DD-MM-YYYY HH:mm'
 };

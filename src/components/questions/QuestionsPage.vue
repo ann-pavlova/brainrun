@@ -261,7 +261,7 @@
                 questions: [],
                 pagination: {
                     descending: true,
-                    rowsPerPage: 5,
+                    rowsPerPage: 10,
                     sortBy: 'date',
                     page: 1,
                     totalItems: 0

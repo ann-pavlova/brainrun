@@ -15,7 +15,7 @@ export default {
         levels: '',
         paging: {
             offset: 0,
-            limit: 5,
+            limit: 10,
             orderByType: 'date',
             descending: 'desc'
         }
